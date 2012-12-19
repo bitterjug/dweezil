@@ -10,6 +10,7 @@ require('zappajs') ->
       head ->
         title @title if @title
       body ->
-        h1 'Dweezil!'
+        h1 'This is Dweezil!'
         div id:'content'
+        p "Something"
 

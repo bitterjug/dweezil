@@ -138,6 +138,27 @@
 <node CREATED="1355871695601" ID="ID_1827835223" MODIFIED="1355871719999" TEXT="I can do that for zappa, and apparently I can put view templates in the file system if Iwant"/>
 </node>
 <node CREATED="1355871723228" ID="ID_336434264" MODIFIED="1355871735319" TEXT="Express uses jade by default, were using coffeecup by default"/>
+<node CREATED="1355954331840" ID="ID_914288102" MODIFIED="1355954832122" TEXT="restart-server on change">
+<node CREATED="1355954756749" ID="ID_651957965" LINK="https://github.com/fgnass/node-dev" MODIFIED="1355954828361">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Install node-dev globally and start the app with:
+    </p>
+    <p>
+      node-dev test.coffee
+    </p>
+    <p>
+      It uses ubuntu notifications to tell you when it restarts!
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1355868174153" FOLDED="true" ID="ID_1240186593" MODIFIED="1355923941151" POSITION="left" TEXT="An experiment">
 <node CREATED="1355868190438" ID="ID_891768824" MODIFIED="1355868196240" TEXT="Node.js"/>
