@@ -7,13 +7,16 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="checkbox"/>
 </node>
-<node CREATED="1355955248401" ID="ID_535245378" MODIFIED="1355955281001" TEXT="the main page lalyout template should be outside the app">
-<icon BUILTIN="options_checkbox"/>
+<node CREATED="1355950740444" ID="ID_828929093" MODIFIED="1355957853812" TEXT="Unknown routes should give a good 404">
+<icon BUILTIN="checkbox"/>
 </node>
-<node CREATED="1355950740444" ID="ID_828929093" MODIFIED="1355950757133" TEXT="Unknown routes should give a good 404">
-<icon BUILTIN="options_checkbox"/>
+<node CREATED="1355950758519" ID="ID_231657590" MODIFIED="1355958856429" TEXT="Serve static media including css">
+<icon BUILTIN="checkbox"/>
 </node>
-<node CREATED="1355950758519" ID="ID_231657590" MODIFIED="1355950765044" TEXT="Serve static media including css">
+<node CREATED="1355958347483" ID="ID_1149962529" LINK="https://github.com/khoomeister/coffee-css" MODIFIED="1355958851159" TEXT="check out zappa appears to use coffeescript for css too">
+<icon BUILTIN="checkbox"/>
+</node>
+<node CREATED="1355955248401" ID="ID_535245378" MODIFIED="1355958859524" TEXT="the main page lalyout template should be outside the app">
 <icon BUILTIN="options_checkbox"/>
 </node>
 <node CREATED="1355869364944" ID="ID_1713529700" MODIFIED="1355869373385" TEXT="Serve images">
@@ -31,7 +34,7 @@
 </node>
 <node CREATED="1355870373543" ID="ID_463896258" MODIFIED="1355923920319" POSITION="right" TEXT="learning">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1355922958388" FOLDED="true" ID="ID_89284372" MODIFIED="1355954989882" TEXT="Tools:">
+<node CREATED="1355922958388" FOLDED="true" ID="ID_89284372" MODIFIED="1355958876218" TEXT="Tools:">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355922963936" ID="ID_533475085" LINK="http://zappajs.github.com/zappajs/docs/reference" MODIFIED="1355923020754" TEXT="Zappa api"/>
 <node CREATED="1355923749964" ID="ID_1088375021" LINK="https://github.com/zappajs/zappajs-template" MODIFIED="1355923769015" TEXT="Zappajs template"/>
@@ -39,7 +42,7 @@
 <node CREATED="1355923058720" ID="ID_399177941" MODIFIED="1355923064402" TEXT="Express default app"/>
 <node CREATED="1355923065065" ID="ID_303821873" MODIFIED="1355923070485" TEXT="CupCake app builder"/>
 </node>
-<node CREATED="1355869924355" ID="ID_410607472" MODIFIED="1355954995691" STYLE="fork" TEXT="register routes">
+<node CREATED="1355869924355" FOLDED="true" ID="ID_410607472" MODIFIED="1355956018133" STYLE="fork" TEXT="register routes">
 <edge COLOR="#5c4a36" STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355869935881" ID="ID_982273206" MODIFIED="1355870353503" STYLE="fork">
@@ -91,7 +94,11 @@
 </node>
 <node CREATED="1355955022481" ID="ID_1637844179" MODIFIED="1355955039043" TEXT="v"/>
 </node>
-<node CREATED="1355870556887" FOLDED="true" ID="ID_15495671" MODIFIED="1355954995325" TEXT="break the app into modules">
+<node CREATED="1355956019675" FOLDED="true" ID="ID_254168862" MODIFIED="1355958016480" TEXT="handle 404 errors nicely">
+<node CREATED="1355957881669" ID="ID_616900383" LINK="http://www.waterworld.com.hk/en/blog/handle-404-error-expressjs" MODIFIED="1355957926465" TEXT="This page explains how to catch the renderd result and send it using res.send with an error code"/>
+<node CREATED="1355957945691" ID="ID_1560497645" MODIFIED="1355958014749" TEXT="I used the index template with &apos;message&apos; and &apos;title&apos; parameters to create a 404 page -- I might change this when I move the main page template out of the app code"/>
+</node>
+<node CREATED="1355870556887" FOLDED="true" ID="ID_15495671" MODIFIED="1355958877471" TEXT="break the app into modules">
 <node CREATED="1355870566511" ID="ID_231400790" MODIFIED="1355870595735" TEXT="the default express app creates some folders and stuff"/>
 <node COLOR="#006699" CREATED="1355870596875" ID="ID_372322302" MODIFIED="1355871052748" TEXT="app">
 <font NAME="Ubuntu Mono" SIZE="16"/>

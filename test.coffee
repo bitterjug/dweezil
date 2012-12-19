@@ -20,9 +20,14 @@ require('zappajs') ->
         div id:'content'
         p @message
 
+  @css '/error.css':
+    h1:
+      color: 'red'
+
   @use (req, res, next) ->
     res.render 'index'
       title: 'Not found'
-      message: 'Page not found',
+      message: 'Page not found'
+      stylesheet: '/error.css',
         (err, page) ->
           res.send 404, page
