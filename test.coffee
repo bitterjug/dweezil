@@ -2,11 +2,11 @@ require('zappajs') ->
 
   @use 'static'
 
-
   @get '/': ->
     @render 'index'
       title: 'Dweezil'
       message: 'Here we are'
+      stylesheet: 'stylesheets/test.css'
 
 
   @view index: ->
@@ -14,6 +14,7 @@ require('zappajs') ->
     html ->
       head ->
         title @title if @title
+        link rel:'stylesheet', href:@stylesheet
       body ->
         h1 'This is Dweezil!'
         div id:'content'
