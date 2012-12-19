@@ -1,21 +1,43 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1355868161790" ID="ID_1792597052" MODIFIED="1355868173291" TEXT="Dweezil">
-<node CREATED="1355868958516" ID="ID_1660746335" MODIFIED="1355868962804" POSITION="right" TEXT="Stuff to do">
+<node CREATED="1355868958516" ID="ID_1660746335" MODIFIED="1355923918917" POSITION="right" TEXT="Stuff to do">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355869020976" ID="ID_537581768" MODIFIED="1355870179863" STYLE="fork" TEXT="Serve an html page">
 <edge COLOR="#5c4a36" STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="options_checkbox"/>
 </node>
+<node CREATED="1355950740444" ID="ID_828929093" MODIFIED="1355950757133" TEXT="Unknown routes should give a good 404">
+<icon BUILTIN="options_checkbox"/>
+</node>
+<node CREATED="1355950758519" ID="ID_231657590" MODIFIED="1355950765044" TEXT="Serve static media including css">
+<icon BUILTIN="options_checkbox"/>
+</node>
 <node CREATED="1355869364944" ID="ID_1713529700" MODIFIED="1355869373385" TEXT="Serve images">
 <icon BUILTIN="options_checkbox"/>
 </node>
-<node CREATED="1355869374638" ID="ID_1827951612" MODIFIED="1355869383753" TEXT="maybe work through the "/>
+<node CREATED="1355923864832" ID="ID_12906605" MODIFIED="1355923879834" TEXT="Connect to a copy of my Wordpress sql DB">
+<icon BUILTIN="options_checkbox"/>
 </node>
-<node CREATED="1355870373543" ID="ID_463896258" MODIFIED="1355870376485" POSITION="right" TEXT="learning">
-<node COLOR="#5f4a2c" CREATED="1355868963752" ID="ID_142916117" LINK="http://zappajs.github.com/zappajs/docs/reference" MODIFIED="1355871561784" TEXT="Use the Zappa api reference and the default express app to work out what to do">
-<font NAME="FreeSans" SIZE="16"/>
-<node CREATED="1355869924355" ID="ID_410607472" MODIFIED="1355871572319" STYLE="fork" TEXT="register routes">
+<node CREATED="1355923880617" ID="ID_588442653" MODIFIED="1355923891923" TEXT="Serve blogs from the db">
+<icon BUILTIN="options_checkbox"/>
+</node>
+<node CREATED="1355923893031" ID="ID_142262506" MODIFIED="1355923908113" TEXT="Find and serve embedded images from the blog">
+<icon BUILTIN="options_checkbox"/>
+</node>
+</node>
+<node CREATED="1355870373543" ID="ID_463896258" MODIFIED="1355923920319" POSITION="right" TEXT="learning">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1355922958388" ID="ID_89284372" MODIFIED="1355923075013" TEXT="Tools:">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1355922963936" ID="ID_533475085" LINK="http://zappajs.github.com/zappajs/docs/reference" MODIFIED="1355923020754" TEXT="Zappa api"/>
+<node CREATED="1355923749964" ID="ID_1088375021" LINK="https://github.com/zappajs/zappajs-template" MODIFIED="1355923769015" TEXT="Zappajs template"/>
+<node CREATED="1355923021585" ID="ID_1123334011" LINK="http://expressjs.com/api.html" MODIFIED="1355923053024" TEXT="Express docs"/>
+<node CREATED="1355923058720" ID="ID_399177941" MODIFIED="1355923064402" TEXT="Express default app"/>
+<node CREATED="1355923065065" ID="ID_303821873" MODIFIED="1355923070485" TEXT="CupCake app builder"/>
+</node>
+<node CREATED="1355869924355" FOLDED="true" ID="ID_410607472" MODIFIED="1355922954550" STYLE="fork" TEXT="register routes">
 <edge COLOR="#5c4a36" STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355869935881" ID="ID_982273206" MODIFIED="1355870353503" STYLE="fork">
@@ -63,11 +85,10 @@
       so in zppa we want to do this on @app
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1355870556887" ID="ID_15495671" MODIFIED="1355871693343" TEXT="break the app into modules">
+<node CREATED="1355870556887" FOLDED="true" ID="ID_15495671" MODIFIED="1355922932888" TEXT="break the app into modules">
 <node CREATED="1355870566511" ID="ID_231400790" MODIFIED="1355870595735" TEXT="the default express app creates some folders and stuff"/>
 <node COLOR="#006699" CREATED="1355870596875" ID="ID_372322302" MODIFIED="1355871052748" TEXT="app">
 <font NAME="Ubuntu Mono" SIZE="16"/>
@@ -118,12 +139,15 @@
 </node>
 <node CREATED="1355871723228" ID="ID_336434264" MODIFIED="1355871735319" TEXT="Express uses jade by default, were using coffeecup by default"/>
 </node>
-</node>
-<node CREATED="1355868174153" ID="ID_1240186593" MODIFIED="1355868189449" POSITION="left" TEXT="An experiment">
+<node CREATED="1355868174153" FOLDED="true" ID="ID_1240186593" MODIFIED="1355923941151" POSITION="left" TEXT="An experiment">
 <node CREATED="1355868190438" ID="ID_891768824" MODIFIED="1355868196240" TEXT="Node.js"/>
 <node CREATED="1355868196546" ID="ID_1709397993" MODIFIED="1355868200306" TEXT="Coffeescript"/>
 <node CREATED="1355868200665" ID="ID_492594778" MODIFIED="1355868206344" TEXT="Express"/>
 <node CREATED="1355868206594" ID="ID_1713209889" MODIFIED="1355868209303" TEXT="Zappajs"/>
+<node CREATED="1355923472136" ID="ID_1638971791" MODIFIED="1355923478336" TEXT="Things to consider">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1355923483752" ID="ID_812793631" MODIFIED="1355923487950" TEXT="stylus CSS"/>
+</node>
 </node>
 </node>
 </map>
