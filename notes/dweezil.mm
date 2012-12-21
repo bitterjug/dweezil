@@ -167,12 +167,11 @@
       It uses ubuntu notifications to tell you when it restarts!
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1355868174153" FOLDED="true" ID="ID_1240186593" MODIFIED="1355923941151" POSITION="left" TEXT="An experiment">
+<node CREATED="1355868174153" ID="ID_1240186593" MODIFIED="1356129241814" POSITION="left" TEXT="An experiment">
 <node CREATED="1355868190438" ID="ID_891768824" MODIFIED="1355868196240" TEXT="Node.js"/>
 <node CREATED="1355868196546" ID="ID_1709397993" MODIFIED="1355868200306" TEXT="Coffeescript"/>
 <node CREATED="1355868200665" ID="ID_492594778" MODIFIED="1355868206344" TEXT="Express"/>
@@ -180,6 +179,7 @@
 <node CREATED="1355923472136" ID="ID_1638971791" MODIFIED="1355923478336" TEXT="Things to consider">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355923483752" ID="ID_812793631" MODIFIED="1355923487950" TEXT="stylus CSS"/>
+<node CREATED="1356129247157" ID="ID_1828954422" LINK="https://github.com/mhevery/jasmine-node" MODIFIED="1356129270811" TEXT="Jasmine testing"/>
 </node>
 </node>
 </node>
