@@ -16,8 +16,8 @@
 <node CREATED="1355958347483" ID="ID_1149962529" LINK="https://github.com/khoomeister/coffee-css" MODIFIED="1355958851159" TEXT="check out zappa appears to use coffeescript for css too">
 <icon BUILTIN="checkbox"/>
 </node>
-<node CREATED="1355955248401" ID="ID_535245378" MODIFIED="1355958859524" TEXT="the main page lalyout template should be outside the app">
-<icon BUILTIN="options_checkbox"/>
+<node CREATED="1355955248401" ID="ID_535245378" MODIFIED="1356878069635" TEXT="the main page lalyout template should be outside the app">
+<icon BUILTIN="checkbox"/>
 </node>
 <node CREATED="1355869364944" ID="ID_1713529700" MODIFIED="1355869373385" TEXT="Serve images">
 <icon BUILTIN="options_checkbox"/>
@@ -150,7 +150,7 @@
 <node CREATED="1355954968481" FOLDED="true" ID="ID_682561959" MODIFIED="1355954972550" TEXT="templates">
 <node CREATED="1355871723228" ID="ID_336434264" MODIFIED="1355871735319" TEXT="Express uses jade by default, were using coffeecup by default"/>
 </node>
-<node CREATED="1355954331840" FOLDED="true" ID="ID_914288102" MODIFIED="1355954963170" TEXT="restart-server on change">
+<node CREATED="1355954331840" ID="ID_914288102" MODIFIED="1356873846399" TEXT="restart-server on change">
 <node CREATED="1355954756749" ID="ID_651957965" LINK="https://github.com/fgnass/node-dev" MODIFIED="1355954828361">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -171,7 +171,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1355868174153" ID="ID_1240186593" MODIFIED="1356129241814" POSITION="left" TEXT="An experiment">
+<node CREATED="1355868174153" ID="ID_1240186593" MODIFIED="1356130319788" POSITION="left" TEXT="An experiment">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355868190438" ID="ID_891768824" MODIFIED="1355868196240" TEXT="Node.js"/>
 <node CREATED="1355868196546" ID="ID_1709397993" MODIFIED="1355868200306" TEXT="Coffeescript"/>
 <node CREATED="1355868200665" ID="ID_492594778" MODIFIED="1355868206344" TEXT="Express"/>
@@ -180,6 +181,18 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355923483752" ID="ID_812793631" MODIFIED="1355923487950" TEXT="stylus CSS"/>
 <node CREATED="1356129247157" ID="ID_1828954422" LINK="https://github.com/mhevery/jasmine-node" MODIFIED="1356129270811" TEXT="Jasmine testing"/>
+<node CREATED="1356130262423" ID="ID_64103762" LINK="https://github.com/nearinfinity/node-persist" MODIFIED="1356130279854" TEXT="persist for db"/>
+<node CREATED="1356187291612" ID="ID_1941444932" LINK="http://arguments.callee.info/2010/04/20/running-apache-and-node-js-together/" MODIFIED="1356187299986" TEXT="how to configure Apache"/>
+</node>
+</node>
+<node CREATED="1356130327733" ID="ID_68097143" MODIFIED="1356130332685" POSITION="left" TEXT="Strategy">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1356130333394" ID="ID_1824554185" MODIFIED="1356130350994" TEXT="Keep wordpress running and use its admin to maintain the site in the wordpress db"/>
+<node CREATED="1356130356614" ID="ID_1786805362" LINK="https://codex.wordpress.org/Database_Description" MODIFIED="1356130375710" TEXT="Wordpress database"/>
+<node CREATED="1356130386822" ID="ID_1926920461" MODIFIED="1356130401411" TEXT="Build node-app to serve site from wordpress db."/>
+<node CREATED="1356130403728" ID="ID_258338388" MODIFIED="1356130425704" TEXT="Build ORM on top of wordpress db"/>
+<node CREATED="1356130428164" ID="ID_48946889" MODIFIED="1356130438298" TEXT="What if Wordpress updates break the schema?">
+<icon BUILTIN="help"/>
 </node>
 </node>
 </node>
