@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1355868161790" ID="ID_1792597052" MODIFIED="1355868173291" TEXT="Dweezil">
+<node CREATED="1355868161790" ID="ID_1792597052" MODIFIED="1356962154017" TEXT="Dweezil">
 <node CREATED="1355868958516" ID="ID_1660746335" MODIFIED="1355923918917" POSITION="right" TEXT="Stuff to do">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355869020976" ID="ID_537581768" MODIFIED="1355955235679" TEXT="Serve an html page">
@@ -19,10 +19,16 @@
 <node CREATED="1355955248401" ID="ID_535245378" MODIFIED="1356878069635" TEXT="the main page lalyout template should be outside the app">
 <icon BUILTIN="checkbox"/>
 </node>
-<node CREATED="1355869364944" ID="ID_1713529700" MODIFIED="1355869373385" TEXT="Serve images">
+<node COLOR="#338800" CREATED="1355923864832" ID="ID_12906605" MODIFIED="1356962629006" TEXT="Connect to a copy of my Wordpress sql DB">
+<icon BUILTIN="options_checkbox"/>
+<node CREATED="1356962101464" ID="ID_1776227167" MODIFIED="1356962109183" TEXT="install wordpress db locally">
+<icon BUILTIN="checkbox"/>
+</node>
+<node CREATED="1356962110426" ID="ID_1841332059" MODIFIED="1356962120284" TEXT="make model for wp_posts table">
 <icon BUILTIN="options_checkbox"/>
 </node>
-<node CREATED="1355923864832" ID="ID_12906605" MODIFIED="1355923879834" TEXT="Connect to a copy of my Wordpress sql DB">
+</node>
+<node CREATED="1355869364944" ID="ID_1713529700" MODIFIED="1355869373385" TEXT="Serve images">
 <icon BUILTIN="options_checkbox"/>
 </node>
 <node CREATED="1355923880617" ID="ID_588442653" MODIFIED="1355923891923" TEXT="Serve blogs from the db">
@@ -32,16 +38,19 @@
 <icon BUILTIN="options_checkbox"/>
 </node>
 </node>
-<node CREATED="1355870373543" ID="ID_463896258" MODIFIED="1355923920319" POSITION="right" TEXT="learning">
+<node CREATED="1355870373543" ID="ID_463896258" MODIFIED="1356962233307" POSITION="right" TEXT="learning">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1355922958388" FOLDED="true" ID="ID_89284372" MODIFIED="1355958876218" TEXT="Tools:">
+<node CREATED="1355922958388" ID="ID_89284372" MODIFIED="1356962703537" TEXT="Resources">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355922963936" ID="ID_533475085" LINK="http://zappajs.github.com/zappajs/docs/reference" MODIFIED="1355923020754" TEXT="Zappa api"/>
 <node CREATED="1355923749964" ID="ID_1088375021" LINK="https://github.com/zappajs/zappajs-template" MODIFIED="1355923769015" TEXT="Zappajs template"/>
 <node CREATED="1355923021585" ID="ID_1123334011" LINK="http://expressjs.com/api.html" MODIFIED="1355923053024" TEXT="Express docs"/>
 <node CREATED="1355923058720" ID="ID_399177941" MODIFIED="1355923064402" TEXT="Express default app"/>
 <node CREATED="1355923065065" ID="ID_303821873" MODIFIED="1355923070485" TEXT="CupCake app builder"/>
+<node CREATED="1356130262423" ID="ID_64103762" LINK="https://github.com/nearinfinity/node-persist" MODIFIED="1356962703080" TEXT="persist for db"/>
 </node>
+<node CREATED="1356962243505" FOLDED="true" ID="ID_543510042" MODIFIED="1356962610630" TEXT="Nuggets">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355869924355" FOLDED="true" ID="ID_410607472" MODIFIED="1355956018133" STYLE="fork" TEXT="register routes">
 <edge COLOR="#5c4a36" STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
@@ -150,7 +159,7 @@
 <node CREATED="1355954968481" FOLDED="true" ID="ID_682561959" MODIFIED="1355954972550" TEXT="templates">
 <node CREATED="1355871723228" ID="ID_336434264" MODIFIED="1355871735319" TEXT="Express uses jade by default, were using coffeecup by default"/>
 </node>
-<node CREATED="1355954331840" ID="ID_914288102" MODIFIED="1356873846399" TEXT="restart-server on change">
+<node CREATED="1355954331840" FOLDED="true" ID="ID_914288102" MODIFIED="1356962568530" TEXT="restart-server on change">
 <node CREATED="1355954756749" ID="ID_651957965" LINK="https://github.com/fgnass/node-dev" MODIFIED="1355954828361">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -171,7 +180,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1355868174153" ID="ID_1240186593" MODIFIED="1356130319788" POSITION="left" TEXT="An experiment">
+</node>
+<node CREATED="1355868174153" ID="ID_1240186593" MODIFIED="1356962653707" POSITION="left" TEXT="An experiment">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355868190438" ID="ID_891768824" MODIFIED="1355868196240" TEXT="Node.js"/>
 <node CREATED="1355868196546" ID="ID_1709397993" MODIFIED="1355868200306" TEXT="Coffeescript"/>
@@ -181,11 +191,10 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355923483752" ID="ID_812793631" MODIFIED="1355923487950" TEXT="stylus CSS"/>
 <node CREATED="1356129247157" ID="ID_1828954422" LINK="https://github.com/mhevery/jasmine-node" MODIFIED="1356129270811" TEXT="Jasmine testing"/>
-<node CREATED="1356130262423" ID="ID_64103762" LINK="https://github.com/nearinfinity/node-persist" MODIFIED="1356130279854" TEXT="persist for db"/>
 <node CREATED="1356187291612" ID="ID_1941444932" LINK="http://arguments.callee.info/2010/04/20/running-apache-and-node-js-together/" MODIFIED="1356187299986" TEXT="how to configure Apache"/>
 </node>
 </node>
-<node CREATED="1356130327733" ID="ID_68097143" MODIFIED="1356130332685" POSITION="left" TEXT="Strategy">
+<node CREATED="1356130327733" FOLDED="true" ID="ID_68097143" MODIFIED="1356962645169" POSITION="left" TEXT="Strategy">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1356130333394" ID="ID_1824554185" MODIFIED="1356130350994" TEXT="Keep wordpress running and use its admin to maintain the site in the wordpress db"/>
 <node CREATED="1356130356614" ID="ID_1786805362" LINK="https://codex.wordpress.org/Database_Description" MODIFIED="1356130375710" TEXT="Wordpress database"/>
