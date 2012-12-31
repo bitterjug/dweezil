@@ -1,0 +1,10 @@
+{
+    "default": "dev",
+
+    "dev": {
+      "driver": "mysql",
+      "user": "wp",
+      "password": "wp",
+      "database": "wp"
+    }
+}
