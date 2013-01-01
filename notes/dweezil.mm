@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1355868161790" ID="ID_1792597052" MODIFIED="1356962154017" TEXT="Dweezil">
-<node CREATED="1355868958516" ID="ID_1660746335" MODIFIED="1355923918917" POSITION="right" TEXT="Stuff to do">
+<node CREATED="1355868958516" ID="ID_1660746335" MODIFIED="1357078160381" POSITION="right" TEXT="Stuff to do">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355869020976" ID="ID_537581768" MODIFIED="1355955235679" TEXT="Serve an html page">
 <font NAME="SansSerif" SIZE="14"/>
@@ -19,7 +19,13 @@
 <node CREATED="1355955248401" ID="ID_535245378" MODIFIED="1356878069635" TEXT="the main page lalyout template should be outside the app">
 <icon BUILTIN="checkbox"/>
 </node>
-<node COLOR="#338800" CREATED="1355923864832" ID="ID_12906605" MODIFIED="1356962629006" TEXT="Connect to a copy of my Wordpress sql DB">
+<node CREATED="1357078165118" ID="ID_1967092247" MODIFIED="1357078179101" TEXT="connect to a database using persist">
+<icon BUILTIN="options_checkbox"/>
+</node>
+<node CREATED="1357078179732" ID="ID_36722340" MODIFIED="1357078188513" TEXT="define a model from existing databse with pesist">
+<icon BUILTIN="options_checkbox"/>
+</node>
+<node CREATED="1355923864832" ID="ID_12906605" MODIFIED="1356966646276" TEXT="Connect to a copy of my Wordpress sql DB">
 <icon BUILTIN="options_checkbox"/>
 <node CREATED="1356962101464" ID="ID_1776227167" MODIFIED="1356962109183" TEXT="install wordpress db locally">
 <icon BUILTIN="checkbox"/>
@@ -40,7 +46,7 @@
 </node>
 <node CREATED="1355870373543" ID="ID_463896258" MODIFIED="1356962233307" POSITION="right" TEXT="learning">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1355922958388" ID="ID_89284372" MODIFIED="1356962703537" TEXT="Resources">
+<node CREATED="1355922958388" FOLDED="true" ID="ID_89284372" MODIFIED="1357044611390" TEXT="Resources">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355922963936" ID="ID_533475085" LINK="http://zappajs.github.com/zappajs/docs/reference" MODIFIED="1355923020754" TEXT="Zappa api"/>
 <node CREATED="1355923749964" ID="ID_1088375021" LINK="https://github.com/zappajs/zappajs-template" MODIFIED="1355923769015" TEXT="Zappajs template"/>
@@ -49,9 +55,12 @@
 <node CREATED="1355923065065" ID="ID_303821873" MODIFIED="1355923070485" TEXT="CupCake app builder"/>
 <node CREATED="1356130262423" ID="ID_64103762" LINK="https://github.com/nearinfinity/node-persist" MODIFIED="1356962703080" TEXT="persist for db"/>
 </node>
-<node CREATED="1356962243505" FOLDED="true" ID="ID_543510042" MODIFIED="1356962610630" TEXT="Nuggets">
+<node CREATED="1356962243505" ID="ID_543510042" MODIFIED="1356966338131" TEXT="Nuggets">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1355869924355" FOLDED="true" ID="ID_410607472" MODIFIED="1355956018133" STYLE="fork" TEXT="register routes">
+<node CREATED="1357078139838" ID="ID_124550052" MODIFIED="1357078198511" TEXT="connect to database using persist">
+<icon BUILTIN="help"/>
+</node>
+<node CREATED="1355869924355" FOLDED="true" ID="ID_410607472" MODIFIED="1357078135798" STYLE="fork" TEXT="register routes">
 <edge COLOR="#5c4a36" STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355869935881" ID="ID_982273206" MODIFIED="1355870353503" STYLE="fork">
@@ -103,7 +112,7 @@
 </node>
 <node CREATED="1355955022481" ID="ID_1637844179" MODIFIED="1355955039043" TEXT="v"/>
 </node>
-<node CREATED="1355956019675" FOLDED="true" ID="ID_254168862" MODIFIED="1355958016480" TEXT="handle 404 errors nicely">
+<node CREATED="1355956019675" FOLDED="true" ID="ID_254168862" MODIFIED="1357078137204" TEXT="handle 404 errors nicely">
 <node CREATED="1355957881669" ID="ID_616900383" LINK="http://www.waterworld.com.hk/en/blog/handle-404-error-expressjs" MODIFIED="1355957926465" TEXT="This page explains how to catch the renderd result and send it using res.send with an error code"/>
 <node CREATED="1355957945691" ID="ID_1560497645" MODIFIED="1355958014749" TEXT="I used the index template with &apos;message&apos; and &apos;title&apos; parameters to create a 404 page -- I might change this when I move the main page template out of the app code"/>
 </node>
@@ -179,9 +188,19 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1356966350066" FOLDED="true" ID="ID_992602079" MODIFIED="1357078127836" TEXT="use persist with mysql">
+<node CREATED="1356966355393" ID="ID_1902069062" MODIFIED="1356966603107" TEXT="Persist v0.2.6 appears to have been written for node-mysql v0.9, but the latest node-mysql is at 2.0.0alpha"/>
+<node CREATED="1356966616473" ID="ID_151954188" MODIFIED="1356966630397" TEXT="npm install mysql"/>
+<node CREATED="1356966654644" ID="ID_1410095754" MODIFIED="1356966661899" TEXT="Installs the latest version by default"/>
+</node>
+<node CREATED="1357044570754" FOLDED="true" ID="ID_1207876601" MODIFIED="1357078126916" TEXT="making reusable modules">
+<node CREATED="1357044581502" ID="ID_442277529" LINK="http://nodejs.org/api/modules.html#modules_modules" MODIFIED="1357044596763" TEXT="node docs on modules finally answered the questions"/>
+<node CREATED="1357044598064" ID="ID_1741370797" MODIFIED="1357044630292" TEXT="exports and module.exports are available in the module"/>
+<node CREATED="1357044632256" ID="ID_1239532872" MODIFIED="1357044659344" TEXT="you can assign names to exports or overwrite the exports on module to force the result to be an instance of a particular class"/>
 </node>
 </node>
-<node CREATED="1355868174153" ID="ID_1240186593" MODIFIED="1356962653707" POSITION="left" TEXT="An experiment">
+</node>
+<node CREATED="1355868174153" FOLDED="true" ID="ID_1240186593" MODIFIED="1357044613779" POSITION="left" TEXT="An experiment">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355868190438" ID="ID_891768824" MODIFIED="1355868196240" TEXT="Node.js"/>
 <node CREATED="1355868196546" ID="ID_1709397993" MODIFIED="1355868200306" TEXT="Coffeescript"/>
