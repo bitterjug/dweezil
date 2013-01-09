@@ -46,7 +46,7 @@
 </node>
 <node CREATED="1355870373543" ID="ID_463896258" MODIFIED="1356962233307" POSITION="right" TEXT="learning">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1355922958388" FOLDED="true" ID="ID_89284372" MODIFIED="1357044611390" TEXT="Resources">
+<node CREATED="1355922958388" FOLDED="true" ID="ID_89284372" MODIFIED="1357772889590" TEXT="Resources">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1355922963936" ID="ID_533475085" LINK="http://zappajs.github.com/zappajs/docs/reference" MODIFIED="1355923020754" TEXT="Zappa api"/>
 <node CREATED="1355923749964" ID="ID_1088375021" LINK="https://github.com/zappajs/zappajs-template" MODIFIED="1355923769015" TEXT="Zappajs template"/>
@@ -213,14 +213,19 @@
 <node CREATED="1356187291612" ID="ID_1941444932" LINK="http://arguments.callee.info/2010/04/20/running-apache-and-node-js-together/" MODIFIED="1356187299986" TEXT="how to configure Apache"/>
 </node>
 </node>
-<node CREATED="1356130327733" FOLDED="true" ID="ID_68097143" MODIFIED="1356962645169" POSITION="left" TEXT="Strategy">
+<node CREATED="1356130327733" ID="ID_68097143" MODIFIED="1357772777412" POSITION="left" TEXT="Strategy">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1356130333394" ID="ID_1824554185" MODIFIED="1356130350994" TEXT="Keep wordpress running and use its admin to maintain the site in the wordpress db"/>
-<node CREATED="1356130356614" ID="ID_1786805362" LINK="https://codex.wordpress.org/Database_Description" MODIFIED="1356130375710" TEXT="Wordpress database"/>
+<node CREATED="1356130356614" ID="ID_1786805362" LINK="https://codex.wordpress.org/Database_Description" MODIFIED="1356130375710" TEXT="Wordpress database">
 <node CREATED="1356130386822" ID="ID_1926920461" MODIFIED="1356130401411" TEXT="Build node-app to serve site from wordpress db."/>
 <node CREATED="1356130403728" ID="ID_258338388" MODIFIED="1356130425704" TEXT="Build ORM on top of wordpress db"/>
 <node CREATED="1356130428164" ID="ID_48946889" MODIFIED="1356130438298" TEXT="What if Wordpress updates break the schema?">
 <icon BUILTIN="help"/>
+</node>
+</node>
+<node CREATED="1357772797656" ID="ID_336177393" LINK="http://wordpress.org/extend/plugins/json-api/other_notes/" MODIFIED="1357772816135" TEXT="Use wordpress&apos;s JSON Rest api to serve content.">
+<node CREATED="1357772820332" ID="ID_1053371427" MODIFIED="1357772844098" TEXT="Write a JS front end that uses ajax calls to the json api to get the content and display"/>
+<node CREATED="1357772844392" ID="ID_1827094418" MODIFIED="1357772854279" TEXT="Still have to use "/>
 </node>
 </node>
 </node>
